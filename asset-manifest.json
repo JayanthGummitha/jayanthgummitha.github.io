@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.61fb69e5.css",
+    "main.js": "/static/js/main.2cdca6ab.js",
+    "static/media/HeroImage.jpg": "/static/media/HeroImage.6f8220dea34e8042c007.jpg",
+    "static/media/Swarg-food.png": "/static/media/Swarg-food.fb89fd56e17da51ba762.png",
+    "static/media/Space-Tech-Pro.png": "/static/media/Space-Tech-Pro.b8ae473404b8e5e2ff2f.png",
+    "static/media/CoffeeDays website screen.png": "/static/media/CoffeeDays website screen.eb668bf954ab05ca1d2b.png",
+    "static/media/BharatLife website screen.png": "/static/media/BharatLife website screen.e473e53b37c589c4833f.png",
+    "static/media/Online-Books.png": "/static/media/Online-Books.6a878879812f1e4ddb19.png",
+    "static/media/Daily Todo DashBoard website screen.png": "/static/media/Daily Todo DashBoard website screen.aa4146b6d5132d28d1be.png",
+    "static/media/favicon.png": "/static/media/favicon.f1565aca5ccbd2fcc817.png",
+    "static/media/collaboration-interface.png": "/static/media/collaboration-interface.61c85ecbd7d22f86a772.png",
+    "index.html": "/index.html",
+    "main.61fb69e5.css.map": "/static/css/main.61fb69e5.css.map",
+    "main.2cdca6ab.js.map": "/static/js/main.2cdca6ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61fb69e5.css",
+    "static/js/main.2cdca6ab.js"
+  ]
+}
