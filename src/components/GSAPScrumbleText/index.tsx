@@ -33,10 +33,13 @@ function GSAPScrumbleText({ content, paused }: Props) {
     }
     tl.current = gsap.timeline({ paused, delay: 4 })
     const delay = 1
+   
 
     for (let i = 0; i < content.length; i++) {
+     
       const l = content[i]
       tl.current.to(p1El.current, {
+       
         duration: 1.5,
         delay,
         scrambleText: {
@@ -64,6 +67,20 @@ function GSAPScrumbleText({ content, paused }: Props) {
           }
         })
       }
+      if (l[2]) {
+        tl.current.to(p2El.current, {
+          duration: 1.5,
+          scrambleText: {
+            text: l[1],
+            chars,
+            newClass: style.completed,
+            tweenLength: false
+          },
+          onStart: () => {
+            gsap.set(p2El.current, { opacity: 1 })
+          }
+        })
+      }
 
       if (i < content.length - 1) {
         tl.current.to([p1El.current, p2El.current], {
@@ -73,8 +90,23 @@ function GSAPScrumbleText({ content, paused }: Props) {
         })
       }
     }
+    
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(content)])
+  }, [JSON.stringify(content.map((item, index) => {
+    // If the value is "They Call Me Giulio.", replace it with your custom name
+    if (item["0"] === "They Call Me Giulio.") {
+      item["0"] = "They Call Me Jayanth.";
+    }
+  
+    
+  
+    return {
+      ...item,
+      text: item
+    };
+  }))])
+  
+  
 
   useEffect(() => {
     if (!tl.current) return

@@ -27,7 +27,7 @@ const TextIntro = ({ text }: Props) => {
         </div>
       </Row>
     </Container>
-  )
+  );
 }
 
 export default TextIntro

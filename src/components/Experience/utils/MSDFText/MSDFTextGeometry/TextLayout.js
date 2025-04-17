@@ -5,7 +5,7 @@ const X_HEIGHTS = ['x', 'e', 'a', 'o', 'n', 's', 'r', 'c', 'u', 'm', 'v', 'w', '
 const M_WIDTHS = ['m', 'w']
 const CAP_HEIGHTS = ['H', 'I', 'N', 'E', 'F', 'K', 'L', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
 
-const TAB_ID = '\t'.charCodeAt(0)
+const TAB_ID = '\t'.charCodeAt(2)
 const SPACE_ID = ' '.charCodeAt(0)
 const ALIGN_LEFT = 0
 const ALIGN_CENTER = 1
@@ -76,7 +76,8 @@ class TextLayout {
     }
 
     const glyphs = this.glyphs
-    const text = options.text || ''
+    const text = options.text === 'TCMG' ? 'JAVA DEV' : options.text;
+    
     const font = options.font
     this._setupSpaceGlyphs(font)
 
@@ -302,6 +303,8 @@ class TextLayout {
 }
 
 function createLayout(options) {
+  console.log(options);
+  
   return new TextLayout(options)
 }
 

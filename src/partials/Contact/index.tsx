@@ -57,8 +57,8 @@ function Contact() {
             <Heading className={emailClasses}>
               <div>
                 <div className={style.emailContainer}>
-                  <a className={style.email} href="mailto:work@giulio.me">
-                    work@giulio.me
+                  <a className={style.email} href="mailto:jayanthgummitha@gmail.com">
+                    jayanthgummitha@gmail.com
                   </a>
                 </div>
               </div>
@@ -73,20 +73,35 @@ function Contact() {
         <Row start={2} end={1}>
           <ContentBlock>
             <div>
-              <ul className={style.list}>
+              <ul className={style.list}  >
                 <li>
                   <a
-                    href="https://twitter.com/this_is_giulio"
+                    href="https://x.com/GummithaJayanth"
                     onMouseEnter={overHandler}
                     onMouseLeave={outHandler}
                     target="_blank"
+                    className='flex gap-3'
                   >
-                    Twitter <ExternalArrow />
+                    <span>
+                    Twitter 
+
+                    </span>
+                    <ExternalArrow />
                   </a>
                 </li>
                 <li>
                   <a
-                    href="https://github.com/Giulico"
+                    href="https://www.linkedin.com/in/gummitha-jayanth-2104abc"
+                    onMouseEnter={overHandler}
+                    onMouseLeave={outHandler}
+                    target="_blank"
+                  >
+                    Linkedin <ExternalArrow />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/JayanthGummitha"
                     onMouseEnter={overHandler}
                     onMouseLeave={outHandler}
                     target="_blank"
