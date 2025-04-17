@@ -67,6 +67,7 @@
 .list {
   padding-top: var(--spc-5);
   padding-left: 0;
+  display: flex;
 
   @media (--md-l) {
     padding-top: 0;
@@ -75,10 +76,17 @@
 
   li {
     list-style: none;
+    
+    padding-right: 15px;
+
 
     a {
       @mixin body-1;
-
+      width:100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
       line-height: 2.5;
       @media (--md-l) {
         line-height: 1.7;

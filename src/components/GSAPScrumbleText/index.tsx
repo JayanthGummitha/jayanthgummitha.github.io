@@ -74,7 +74,22 @@ function GSAPScrumbleText({ content, paused }: Props) {
       }
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [JSON.stringify(content)])
+  }, [JSON.stringify(content.map((item,index)=>{
+    if (item["0"] === "They Call Me Giulio.") {
+      item["0"] = "They Call Me Jayanth";
+    }
+
+    // Rebuild the `text` field
+    const textParts = Object.keys(item)
+      .filter(key => key !== "text")
+      .sort((a, b) => Number(a) - Number(b))
+      .map(key => item[0]);
+
+    
+
+    return item;
+
+  }))])
 
   useEffect(() => {
     if (!tl.current) return

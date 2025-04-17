@@ -76,7 +76,7 @@ class TextLayout {
     }
 
     const glyphs = this.glyphs
-    const text = options.text || ''
+    const text = options.text ==="TCMG"?"Java Dev" :options.text
     const font = options.font
     this._setupSpaceGlyphs(font)
 
