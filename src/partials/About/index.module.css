@@ -37,3 +37,25 @@
     }
   }
 }
+
+.text-special {
+  background-color: #02031A;
+  color: white;
+  font-family: 'Orbitron', sans-serif;
+  padding: 2rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.highlight-game {
+  color: #A96BFF; /* for "Starcraft: Brood War" */
+}
+
+.numbers-one {
+  color: white;
+  font-weight: 700;
+}
+
+.numbers-one .highlight {
+  color: #7B6CFF;
+}

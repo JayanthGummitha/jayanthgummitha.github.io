@@ -26,7 +26,7 @@ function About() {
         <Row start={3} end={1}>
           <div className={style.section}>
             <ContentBlock key={intro[0]}>
-              <div>
+              {/* <div>
                 <Trans
                   i18nKey={`about.intro.0`}
                   components={{
@@ -35,7 +35,11 @@ function About() {
                     ImageTCMGTK: <ImageTrigger name="tcmgtk" sizes={[2, 3]} />
                   }}
                 />
-              </div>
+              </div> */}
+              <div>I was born in <em className="ImageTrigger-root_rOwOJ">Huzurnagar,India</em> in December 2000,
+               today I live in United States and working  at <em className="ImageTrigger-root_rOwOJ">Self-Projects</em>, 
+               an advanced-Full Stack Java Developer, as Creative Software Developer.</div>
+            
             </ContentBlock>
           </div>
         </Row>
@@ -43,20 +47,25 @@ function About() {
       <Container grid outerRightOnMobile>
         <Row start={1} end={2}>
           <Heading key={intro[1]}>
+            
             <Trans
-              i18nKey="about.intro.1"
+              i18nKey="
+            My first version of
+            <br/> jayanthgummitha.github.io
+            "
               components={{
                 Square: <Square />,
                 pre: <pre />
               }}
             />
-          </Heading>
+           </Heading>
+          
         </Row>
       </Container>
       <Container grid>
         <Row start={2} end={1}>
-          <ContentBlock key={intro[2]}>
-            {intro.slice(2).map((txt, i) => (
+          <ContentBlock key={intro[1]}>
+            {/* {intro.slice(2).map((txt, i) => (
               <div key={i}>
                 <Trans
                   i18nKey={`about.intro.${i + 2}`}
@@ -67,7 +76,9 @@ function About() {
                   }}
                 />
               </div>
-            ))}
+            ))} */}
+            <div className=""><div>
+              The first version, in 2023, was the first to have the basic-level domain <em className="ImageTrigger-root_rOwOJ">jayanthgummitha.github.io</em></div><div>Since then I have been designing and implementing virtual experiences. I have studied different programming languages and databases to cover the whole Technology stacks.</div><div>Today I think in Java with Aws.</div></div>
           </ContentBlock>
         </Row>
       </Container>
@@ -76,8 +87,7 @@ function About() {
           <div className={style.section}>
             <Heading alignRight key={clanTitle[0]}>
               <>
-                {clanTitle[0]}
-                <br /> {clanTitle[1]}
+                Saas
               </>
             </Heading>
           </div>
@@ -87,32 +97,26 @@ function About() {
         <Row start={2} end={2}>
           <div className={style.columns}>
             <ContentBlock key={clan[0]}>
-              {clan.slice(0, 2).map((txt, i) => (
-                <div key={i}>
-                  <Trans
-                    i18nKey={`about.clan.${i}`}
-                    components={{
-                      ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
-                      ImageNO1: <ImageTrigger name="no1" />,
-                      ImageNO2: <ImageTrigger name="no2" />,
-                      ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
-                    }}
-                  />
+              {clan.slice(0, 1).map((txt, i) => (
+                <div key={i} className='text-white'>
+                 It is the name of Collabration Project Management. 
+                 Building Saas product was a passion for my career to land as<em className="ImageTrigger-root_rOwOJ"> Software Engineer</em> in IT Companies.<br/>
+              At that time (it was the early 2023) I began to learn Software Skills and passion for my work, practicing building the first <em className="ImageTrigger-root_rOwOJ">Collabration project management </em> website.
+            
                 </div>
               ))}
+              {/* <div className="ContentBlock-base_OM371"><div>It is the name of a clan of players of which I was the co-founder. 
+              A community whose main interest was a passion for <em className="ImageTrigger-root_rOwOJ">Starcraft: Brood War</em>.
+              At that time (it was the early 2000s) I began to combine fun for this game and passion for my work, practicing building the first <em className="ImageTrigger-root_rOwOJ">Numbers One</em> website.
+             */}
             </ContentBlock>
-            <ContentBlock key={clan[2]}>
-              {clan.slice(2).map((txt, i) => (
+            <ContentBlock >
+              {clan.slice(0,1).map((txt, i) => (
                 <div key={i}>
-                  <Trans
-                    i18nKey={`about.clan.${i + 2}`}
-                    components={{
-                      ImageBW: <ImageTrigger name="bw" sizes={[2.5, 2.5]} />,
-                      ImageNO1: <ImageTrigger name="no1" />,
-                      ImageNO2: <ImageTrigger name="no2" />,
-                      ImageNO3: <ImageTrigger name="no3" sizes={[2, 2.5]} />
-                    }}
-                  />
+                  
+                  Later 6 months, I developed a modern <em className="ImageTrigger-root_rOwOJ">Online Food Order Website </em> featuring user login, order placement, dashboards, order history, and custom restaurant/customer registration. <br/> I designed the UX in Figma, built the frontend using React, HTML, CSS, and JavaScript, and developed the backend with Spring Boot (Java) and MySQL. 
+                <br/> I continue to grow through constant learning, experimentation, and sharing.
+ 
                 </div>
               ))}
             </ContentBlock>

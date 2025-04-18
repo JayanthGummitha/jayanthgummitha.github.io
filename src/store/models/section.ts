@@ -12,7 +12,7 @@ export const section = createModel<RootModel>()({
     current: 'hero' as Sections,
     boundaries: [] as Boundary[],
     sections: [
-      { name: 'TCMG', id: 'hero' },
+      { name: 'Java Dev', id: 'hero' },
       { name: 'Works', id: 'portfolio' },
       { name: 'About', id: 'about' },
       { name: 'Contact', id: 'contact' }

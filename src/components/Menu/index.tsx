@@ -42,7 +42,7 @@ function Menu() {
         <span className={style.line}>version 1.0</span>
       </p>
       <p className={style.desc}>
-        <span className={style.line}>Jan 2023 — March 2024</span>
+        <span className={style.line}>Jan 2024 — March 2025</span>
       </p>
       <hr className={separatorClasses} />
       <MenuTrigger />
