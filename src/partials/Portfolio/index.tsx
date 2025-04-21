@@ -23,7 +23,7 @@ function Portfolio() {
           <Heading misaligned key={intro[0]}>
             <>
               <pre className={style.pre}>{intro[0]}</pre>
-              <Trans i18nKey="portfolio.intro.1" />
+              <Trans i18nKey="Interactive Web Experience" />
             </>
           </Heading>
         </Row>
@@ -31,7 +31,7 @@ function Portfolio() {
       <Container grid key={intro[2]}>
         <Row start={3} end={1}>
           <ContentBlock>
-            <div>{intro[2]}</div>
+            <div>From envisioning system architecture to crafting intuitive UIs and obsessing over every interaction — driven by my passion for performance and elegant, optimized code.</div>
             <div>{intro[3]}</div>
           </ContentBlock>
         </Row>
@@ -44,8 +44,36 @@ function Portfolio() {
       <Container grid key={portfolio[1]}>
         <Row start={2} end={1}>
           <ContentBlock>
-            <div>
-              <Trans i18nKey="portfolio.portfolio.1" />
+            <div >
+            I have worked with tech-skill such as:<br/>
+             <strong>Backend:&nbsp;
+             <strong>JAVA</strong>,&nbsp; 
+             <strong>PYTHON</strong>,&nbsp;
+             <strong>JAVASCRIPT</strong>,&nbsp;
+             <strong>TYPESCRIPT</strong>&nbsp;
+             </strong> <br/>
+             <strong>Frontend:&nbsp;
+             <strong>HTML</strong>,&nbsp; 
+             <strong>CSS</strong>,&nbsp;
+             <strong>TAILWIND CSS</strong>,&nbsp;
+             </strong><br/>
+             <strong> Backend-Framework:&nbsp;
+             <strong>SPRINGBOOT</strong>,&nbsp;
+             <strong>HYBERNATE</strong>,&nbsp;
+             </strong>
+             .<br/>
+             <strong> Frontend-Framework:&nbsp;
+             <strong>SHADCN-UI</strong>,&nbsp;
+             <strong>MATERAIL-UI</strong>,&nbsp;
+             </strong>
+             .<br/>
+             <strong>DATABASE:&nbsp;
+             <strong>MYSQL</strong>,&nbsp;
+             <strong>POSTGRESQL</strong>,&nbsp;
+             <strong>MONGODB</strong>,&nbsp;
+             </strong>
+             .<br/>
+
               <Trans i18nKey="portfolio.portfolio.2" />
             </div>
           </ContentBlock>

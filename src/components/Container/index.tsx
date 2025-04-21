@@ -38,7 +38,10 @@ const Container = ({
     [style.outerRightOnMobile]: outerRightOnMobile
   })
 
-  return <div className={classes}>{children} </div>
+  return <div className={classes}>
+    {children} 
+    
+    </div>
 }
 
 export default Container
@@ -52,6 +55,7 @@ export function Row({ start = 1, end = 1, className, children }: RowProps) {
       })}
     >
       {children}
+     
     </div>
   )
 }
