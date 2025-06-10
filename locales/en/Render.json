@@ -1,0 +1,80 @@
+{
+  "title": "Render",
+  "image": "/projects/fb/renderLogo.png",
+  "live": "",
+  "role": "Software Engineer",
+  "agency": "",
+  "completed": "Present",
+  "awards": ["Backend Programming", "UI Design", "Database Optimization","Cloud Optimizer"],
+  "modules": [
+    {
+      "component": "TextIntro",
+      "text": "Render helps software teams ship products fast and at any scale. We host everything from hundred-line prototypes to applications with hundreds of services, all with a relentless commitment to reliability and uptime."
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/renderHero.png",
+          "alt": "Render Infrastructure"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The challenge",
+      "text": "Having defined the value proposition, the project was divided into several epics to be designed.<br />The design activities turned out to be very complex and on several epics simultaneously.<br />Review modulated and co-design were key to holding the lines.",
+      "numbers": [
+        {
+          "value": 32,
+          "label": "Iterations"
+        },
+        {
+          "value": 35,
+          "label": "Stakeholder"
+        },
+        {
+          "value": 16,
+          "label": "Designer of Render"
+        }
+      ]
+    },
+
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/renderAd1.png",
+          "alt": "Render Infrastructure"
+        },
+        {
+          "src": "/projects/fb/renderAd2.jpg",
+          "alt": "Render Infrastructure"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "Modularity and composability of interfaces",
+      "text": "Render supports composable service architecture—each component (web service, background worker, cron job, database) runs in isolation but can be securely linked via internal networking. I used Environment Groups to manage shared environment variables across services, improving maintainability and reducing duplication.<br/><br/>The platform also provides a unified developer experience through its dashboard, CLI, and REST API, all of which allow seamless interaction with infrastructure components. This made it easy to automate workflows, manage services programmatically, and scale individual parts of the system as needed.<br/><br/>Overall, Render’s modular design allowed me to build, organize, and scale cloud infrastructure in a clean, reusable, and efficient way—mirroring the principles of component-based software and design systems."
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/renderBanner1.png",
+          "alt": "Fastweb Design Library"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/renderBanner2.jpeg",
+          "alt": "UI Fastweb"
+        }
+      ]
+    }
+  ]
+}
