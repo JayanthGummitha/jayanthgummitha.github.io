@@ -9,30 +9,35 @@ type Project = {
 
 const initialState: Project[] = [
   {
-    name: 'Sketchin',
-    url: 'sketchin',
-    videoID: 'skReel'
-  },
-  {
-    name: 'AQuest',
-    url: 'aquest',
+    name: 'Render',
+    url: 'Render',
     videoID: 'aqReel'
   },
   {
-    name: 'Fastweb',
-    url: 'fastweb',
-    videoID: 'fbReel'
+    name: 'Rexel',
+    url: 'Rexel',
+    videoID: 'aqReel'
   },
   {
-    name: 'Feudi',
-    url: 'feudi',
-    videoID: 'feudiReel'
+    name: 'UJR Technologies',
+    url: 'sketchin',
+    videoID: 'skReel'
   },
-  {
-    name: 'Claraluna',
-    url: 'claraluna',
-    videoID: 'claralunaReel'
-  }
+  // {
+  //   name: 'Fastweb',
+  //   url: 'fastweb',
+  //   videoID: 'fbReel'
+  // },
+  // {
+  //   name: 'Feudi',
+  //   url: 'feudi',
+  //   videoID: 'feudiReel'
+  // },
+  // {
+  //   name: 'Claraluna',
+  //   url: 'claraluna',
+  //   videoID: 'claralunaReel'
+  // }
 ]
 
 export const projects = createModel<RootModel>()({

@@ -168,11 +168,11 @@ function About() {
         <Row start={1} end={3}>
           <ContentBlock>
             <List>
-              <ListItem end="x6">Awwwards</ListItem>
-              <ListItem end="x6">CSS Design Awards</ListItem>
-              <ListItem end="x1">FWA</ListItem>
-              <ListItem end="x3">iF Design Award</ListItem>
-              <ListItem end="x8">Other</ListItem>
+              <ListItem end="x8">Backend programming</ListItem>
+              <ListItem end="x7">UI/UX Design</ListItem>
+              <ListItem end="x8">Database Optimization</ListItem>
+              <ListItem end="x5">Cloud interaction</ListItem>
+              <ListItem end="x8">Tools Management / New Technologies</ListItem>
             </List>
           </ContentBlock>
         </Row>

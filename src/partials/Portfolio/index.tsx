@@ -49,6 +49,7 @@ function Portfolio() {
              <strong>Backend:&nbsp;
              <strong>JAVA</strong>,&nbsp; 
              <strong>PYTHON</strong>,&nbsp;
+             <strong>SQL</strong>,&nbsp;
              <strong>JAVASCRIPT</strong>,&nbsp;
              <strong>TYPESCRIPT</strong>&nbsp;
              </strong> <br/>
@@ -67,10 +68,16 @@ function Portfolio() {
              <strong>MATERAIL-UI</strong>,&nbsp;
              </strong>
              .<br/>
-             <strong>DATABASE:&nbsp;
+             <strong>Database:&nbsp;
              <strong>MYSQL</strong>,&nbsp;
              <strong>POSTGRESQL</strong>,&nbsp;
              <strong>MONGODB</strong>,&nbsp;
+             </strong>
+             .<br/>
+             <strong>Cloud:&nbsp;
+             <strong>AWS</strong>,&nbsp;
+             <strong>GCP</strong>,&nbsp;
+             <strong>AZURE</strong>,&nbsp;
              </strong>
              .<br/>
 
