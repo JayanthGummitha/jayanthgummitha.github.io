@@ -115,8 +115,8 @@ export default class Portfolio {
 
     this.projects = [
       {
-        name: 'Render',
-        url: 'Render',
+        name: 'GM',
+        url: 'general-motors',
         video: document.getElementById('fbReel') as HTMLVideoElement
       },
       {

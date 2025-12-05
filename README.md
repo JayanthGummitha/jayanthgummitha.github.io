@@ -1,3 +1,3 @@
-# Portfolio 2025
+# folio-2022
 
-[Preview - Main](https://jayanthgummitha.github.io/)
+[Preview - Main](https://folio-2022.netlify.app/)
