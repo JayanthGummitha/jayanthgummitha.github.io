@@ -1,0 +1,97 @@
+{
+  "title": "Practo",
+  "image": "/projects/aq/Practo_Logo.png",
+  "live": "",
+  "role": "Software Engineer",
+  "agency": "Contract",
+  "completed": "07.2022",
+  "awards": ["Backend Programming", "UI Design", "Database Optimization"],
+  "modules": [
+    {
+      "component": "TextIntro",
+      "text": "Practo is a leading Indian digital healthcare platform that connects patients with healthcare providers through a comprehensive suite of online and offline services. As of 2026, it operates in over 15 countries, including India and the UAE" },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/aq/Practo_hero.png",
+          "alt": "Rexel_logo"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The challenge",
+      "text": "Practo's primary challenge under the fully operational Digital Personal Data Protection (DPDP) Act is navigating the conflict between a patient's right to erasure and sectoral medical record retention laws. While the DPDP Act mandates that data fiduciaries delete personal data once its specific purpose is served or consent is withdrawn, Indian healthcare regulations often require clinics and hospitals to preserve medical records for 3 to 7 years for legal and continuity-of-care reasons. Furthermore, as a likely Significant Data Fiduciary (SDF), Practo must meet rigorous operational standards, including appointing an India-based Data Protection Officer, conducting periodic independent data audits, and reporting any data breach to the Data Protection Board within 72 hours. These requirements, coupled with stiff penalties of up to INR 250 crore for non-compliance, necessitate a fundamental redesign of Practo's data architecture to ensure granular consent management across its diverse pharmacy, diagnostic, and teleconsultation services.",
+      "numbers": [
+        {
+          "value": 3,
+          "label": "Awards"
+        },
+        {
+          "value": 13,
+          "label": "Months of work"
+        },
+        {
+          "value": "10",
+          "label": "People in the team"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/aq/PractoAd1.png",
+          "alt": "AQuest v1"
+        },
+        {
+          "src": "/projects/aq/PractoAd2.png",
+          "alt": "AQuest v2"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The attention to detail",
+      "text": "The Practo Pro app for healthcare providers is designed with a multi-functional home screen intended to automate clinical tasks and manage a doctor's digital reputation. This central dashboard allows practitioners to view daily appointment schedules, manage patient records by uploading files from a phone camera, and use an integrated profile editor to update details like consultation fees. "
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/aq/PractoP1.png",
+          "alt": "AQuest v1"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/aq/PractoP2.webp",
+          "alt": "AQuest v2"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "Not only creativity",
+      "text": "This project not only meant creativity from a visual point of view, but it was also an opportunity to experiment with new development tools.<br /><br />The entire frontend codebase is in fact written in Flow, which in 2021 aimed to make TypeScript and in particular React (Flow itself being developed by Facebook) a typed language.<br /><br />To handle asynchronous events (data requests, animations, audio effects, transitions, etc.) we embraced the reactive paradigm making heavy use of RX.js",
+      "technologies": ["React", "Java","SpringBoot","SQL","Kafka","AZure","Javascript"]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/aq/PractoTheme.png",
+          "alt": "AQuest site"
+        }
+      ]
+    },
+    {
+      "component": "Awards",
+      "awards": ["FWA", "Awwwards", "CSS Design Award", "Digital Design Awards"]
+    }
+  ]
+}

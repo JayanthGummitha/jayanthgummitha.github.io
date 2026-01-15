@@ -1,0 +1,78 @@
+{
+  "title": "Bank of America",
+  "image": "/projects/fb/bofa_logo.png",
+  "live": "",
+  "role": "Software Engineer",
+  "agency": "",
+  "completed": "Present",
+  "awards": ["Backend Programming", "UI Design", "Database Optimization","Cloud Optimizer"],
+  "modules": [
+    {
+      "component": "TextIntro",
+      "text": "Bank of America is a leading global financial institution committed to delivering innovative banking and technology solutions. By combining deep domain expertise, advanced analytics, and disciplined engineering practices, the company provides secure, scalable, and customer-focused services. With a strong emphasis on quality, compliance, and operational excellence, Bank of America continuously enhances value for clients while driving efficiency across its products and platforms."    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/bofaHero.png",
+          "alt": "Render Infrastructure"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The challenge",
+      "text": "We provide innovative financial and technology solutions that empower businesses and individuals to achieve their goals. Leveraging disciplined processes, deep domain expertise, and a holistic approach, we continually enhance operational efficiency and deliver measurable value. Focused on security, compliance, and quality at every stage, our teams ensure that development and services remain reliable, scalable, and aligned with client needs.",
+      "numbers": [
+        {
+          "value": 32,
+          "label": "Iterations"
+        },
+        {
+          "value": 35,
+          "label": "Stakeholder"
+        },
+        {
+          "value": 16,
+          "label": "Designer of Render"
+        }
+      ]
+    },
+
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/bofaAd1.jpg",
+          "alt": "Genral Motors Infrastructure"
+        },
+        {
+          "src": "/projects/fb/bofaAd2.png",
+          "alt": "Genral Motors Infrastructure"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "Modularity and composability of interfaces",
+      "text":"Bank of America’s technology platform supports modular and scalable financial services—each component (microservice, batch job, API endpoint, database) operates independently while securely communicating through internal networks. I leveraged centralized configuration and environment management to standardize shared variables across services, improving maintainability and reducing configuration errors. The platform provides a unified developer experience through dashboards, CLI tools, and APIs, enabling seamless automation, programmatic service management, and controlled scaling of individual components. Overall, Bank of America’s service-oriented architecture allowed me to design, deploy, and maintain robust financial systems in a structured, reusable, and efficient manner—aligning with best practices in component-based software design and operational excellence."},
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/bofaBanner1.jpeg",
+          "alt": "Fastweb Design Library"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/fb/bofaBanner2.png",
+          "alt": "UI Fastweb"
+        }
+      ]
+    }
+  ]
+}

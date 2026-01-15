@@ -1,0 +1,86 @@
+{
+  "title": "FlipKart",
+  "image": "/projects/sk/Flipkart_logo.jpg",
+  "live": "",
+  "role": "Full Stack Java Developer",
+  "agency": "Contract",
+  "completed": "12.2020",
+  "awards": ["Full Stack Programming", "UI Design", "Database Optimization"],
+  "modules": [
+    {
+      "component": "TextIntro",
+      "text": "Flipkart is a major Indian e-commerce company, headquartered in Bengaluru, Karnataka, India, and is a group company under the majority ownership of Walmart. It operates as an online marketplace selling a wide variety of products, including electronics, fashion, home essentials, and groceries across India . "},
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/sk/Flipkarthero.jpg",
+          "alt": "Rexel_logo"
+        }
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The challenge",
+      "text": " We deliver cutting-edge e-commerce solutions that create a competitive advantage for millions of users. Our disciplined engineering practices, deep domain expertise, and holistic approach continually drive innovation and enhance business value. A strong focus on quality, performance, and reliability, combined with efficient resource management, ensures that product development and operations remain seamless and always on track.",
+      "numbers": [
+        {
+          "value": 3,
+          "label": "Awards"
+        },
+        {
+          "value": 12,
+          "label": "Months of work"
+        },
+        {
+          "value": "10",
+          "label": "People in the team"
+        }
+      ]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/sk/fk_hero.jpg",
+          "alt": "AQuest v1"
+        }
+        
+      ]
+    },
+    {
+      "component": "TextTwoColumns",
+      "title": "The attention to detail",
+      "text": "All pages of the site had to have the same attention to detail, no matter how much they would be visited.<br /><br />Here in the cases, for example, to listen to the audio that characterizes an experience, we made components that simulate strings. Page 404 contains the game Pong, and as you navigate the pages, the texts tilt according to the speed of your scroll."
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/sk/fk_form1.png",
+          "alt": "AQuest v1"
+        }
+      ]
+    },
+    
+    {
+      "component": "TextTwoColumns",
+      "title": "Not only creativity",
+      "text": "This project not only meant creativity from a visual point of view, but it was also an opportunity to experiment with new development tools.<br /><br />The entire frontend codebase is in fact written in Flow, which in 2023 aimed to make javascript and in particular React (Flow itself being developed by Facebook) a typed language.<br /><br />To handle asynchronous events (data requests, animations, audio effects, transitions, etc.) we embraced the reactive paradigm making heavy use of RX.js",
+      "technologies": ["React", "Java","SpringBoot","SQL","Kafka","AZure","Javascript"]
+    },
+    {
+      "component": "Media",
+      "media": [
+        {
+          "src": "/projects/sk/fk_form2.png",
+          "alt": "AQuest site"
+        }
+      ]
+    },
+    {
+      "component": "Awards",
+      "awards": ["FWA", "Awwwards", "CSS Design Award", "Digital Design Awards"]
+    }
+  ]
+}
