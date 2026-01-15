@@ -9,18 +9,18 @@ type Project = {
 
 const initialState: Project[] = [
   {
-    name: 'General Motors',
-    url: 'general-motors',
+    name: 'Bank of America',
+    url: 'Bank-of-America',
+    videoID: 'fbReel'
+  },
+  {
+    name: 'Practo',
+    url: 'Practo',
     videoID: 'aqReel'
   },
   {
-    name: 'Rexel',
-    url: 'Rexel',
-    videoID: 'aqReel'
-  },
-  {
-    name: 'UJR Technologies',
-    url: 'UJR',
+    name: 'Flipkart',
+    url: 'Flipkart',
     videoID: 'skReel'
   },
   // {

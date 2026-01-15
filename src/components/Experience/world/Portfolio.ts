@@ -115,18 +115,18 @@ export default class Portfolio {
 
     this.projects = [
       {
-        name: 'GM',
-        url: 'general-motors',
+        name: 'Bank-America',
+        url: 'Bank-of-America',
         video: document.getElementById('fbReel') as HTMLVideoElement
       },
       {
-        name: 'Rexel',
-        url: 'Rexel',
+        name: 'Practo',
+        url: 'Practo',
         video: document.getElementById('aqReel') as HTMLVideoElement
       },
       {
-        name: 'UJR Tech',
-        url: 'UJR',
+        name: 'Flipkart',
+        url: 'Flipkart',
         video: document.getElementById('skReel') as HTMLVideoElement
       },
       // {
